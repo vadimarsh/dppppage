@@ -6,6 +6,7 @@ main {
 header{
     display: flex;
     flex-direction: column;
+    padding: 5pt;
 }
 .header_banner{
     background-image: url("../img/background.png");
@@ -27,7 +28,7 @@ h3 {
 }
 img {
     border-radius:50%;
-    height:200pt;
+    height:190pt;
     width: 210pt;
     margin: 10pt;
     align-self: center;
@@ -37,7 +38,7 @@ img {
 }
 
 .module {
-    background-color: rgb(189, 240, 147);
+    background-color: rgb(147, 229, 240);
     
     border-radius: 10px;
     width: 20vw;
@@ -50,8 +51,15 @@ img {
     flex-direction: column;
 }
 .second.module{
+    background-color: rgb(193, 235, 137);
+}
+.third.module{
     background-color: rgb(218, 162, 196);
 }
+.four.module{
+    background-color: rgb(243, 206, 42);
+}
+
 
 .module_container{
     display: flex;
@@ -62,6 +70,13 @@ img {
 
 section{
     padding: 10pt;
+}
+
+.vkr{
+    margin: 10pt;
+    border-radius: 10px;
+    border-style: dotted;
+    background-color: rgba(255, 127, 80, 0.705);
 }
 @media (max-width : 1750px) {
     .module{
@@ -101,6 +116,33 @@ section{
         border-style: dotted;
         margin:10pt;
         padding: 10pt;
+    }
+}
+@media (max-width : 600px) {
+    .module{
+        background-color: rgb(235, 226, 145);
+        border-radius: 10px;
+        min-width: 400px;
+        min-height: 400px;
+        flex-basis: 90%;
+        font-size: larger;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+    .vkr{
+        font-size: larger;
+    }
+    img {
+        border-radius:50%;
+        height:70pt;
+        width: 75pt;
+        margin: 5pt;
+        align-self: center;
+    }
+    main{
+        border-style:dotted;
+        margin:0pt;
     }
 }
  
