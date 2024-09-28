@@ -122,7 +122,7 @@ section{
     .module{
         background-color: rgb(235, 226, 145);
         border-radius: 10px;
-        min-width: 400px;
+        min-width: 320px;
         min-height: 400px;
         flex-basis: 90%;
         font-size: larger;
