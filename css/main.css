@@ -15,14 +15,14 @@ header{
 .header_banner p{
     font-size: xx-large;
     color: azure;
-    margin-left: 20pt;
-    margin-top: 5pt;
+    padding-left: 20pt;
 }
 .btn{
     margin: 20pt;
     align-self: flex-end;
     min-width: 200pt;
 }
+
 h3 {
     font-size: larger;
 }
@@ -109,7 +109,7 @@ section{
     .module{
         background-color: rgb(235, 226, 145);
         border-radius: 10px;
-        min-width: 400px;
+        min-width: 350px;
         min-height: 400px;
         flex-basis: 90%;
         font-size: larger;
@@ -119,10 +119,13 @@ section{
     }
 }
 @media (max-width : 600px) {
+    header{
+        text-align: center;
+    }
     .module{
         background-color: rgb(235, 226, 145);
         border-radius: 10px;
-        min-width: 320px;
+        min-width: 240px;
         min-height: 400px;
         flex-basis: 90%;
         font-size: larger;
